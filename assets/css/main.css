@@ -174,7 +174,8 @@ html {
 }
 
 body {
-    background: #fff;
+    background: rgb(255, 255, 255);
+    text-align: center;
 }
 
 body.is-preload *,
@@ -194,8 +195,8 @@ body,
 input,
 select,
 textarea {
-    color: #a2a2a2;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #797979;
+    font-family: 'Playfair Display', Helvetica, serif;
     font-size: 16pt;
     font-weight: 400;
     line-height: 1.75em;
@@ -226,6 +227,7 @@ b {
 em,
 i {
     font-style: italic;
+    font-size: 1.5em;
 }
 
 p {
@@ -238,7 +240,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #787878;
+    color: #49bf9d;
     font-weight: 400;
     line-height: 1em;
     margin: 0 0 1em 0;
@@ -260,7 +262,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 1.5em;
 }
 
@@ -1578,7 +1580,7 @@ article.special {
 }
 
 header p {
-    color: #b2b2b2;
+    /* color: #b2b2b2; */
     position: relative;
     margin: 0 0 1.5em 0;
 }
@@ -1603,9 +1605,10 @@ header h6+p {
     line-height: 1.5em;
 }
 
-header.major h2 {
+
+/* header.major h2 {
     font-size: 2em;
-}
+} */
 
 
 /* Form */
@@ -1961,8 +1964,9 @@ input[type="radio"]+label:before {
 }
 
 .image.avatar img {
-    border-radius: 30%;
-    width: 100%;
+    border-radius: 100%;
+    width: 11em;
+    text-align: center;
 }
 
 @media screen and (max-width:)
@@ -2073,6 +2077,8 @@ ul.actions {
     list-style: none;
     margin-left: -1em;
     padding-left: 0;
+    margin-top: 5px;
+    justify-content: center;
 }
 
 ul.actions li {
@@ -2418,7 +2424,7 @@ input[type="button"]:disabled,
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
     height: 100%;
     left: 0;
     padding: 8em 4em;
@@ -2458,8 +2464,9 @@ input[type="button"]:disabled,
 }
 
 #header h1 {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
     font-size: 1.35em;
+    font-weight: 700;
     line-height: 1.75em;
     margin: 0;
 }
@@ -2477,11 +2484,11 @@ input[type="button"]:disabled,
 }
 
 #footer .icons a {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
 }
 
 #footer .copyright {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
     font-size: 0.8em;
     list-style: none;
     margin: 1em 0 0 0;
